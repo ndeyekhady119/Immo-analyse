@@ -1,0 +1,25 @@
+# Environnement virtuel
+.venv/
+venv/
+
+# Fichiers Python temporaires
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Configuration locale et secrets
+.env
+.vscode/
+
+# Données sources et fichiers générés
+data/raw/
+data/processed/
+
+# Fichiers CSV
+*.csv
+
+*.csv
+!data/references/*.csv
+
